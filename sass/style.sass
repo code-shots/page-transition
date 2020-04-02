@@ -1,0 +1,47 @@
+// GLOBAL STYLES
+*
+	padding: 0
+	margin: 0
+	box-sizing: border-box
+	color: #454545
+
+// BODY
+body
+	height: 100vh
+	widht: 100vw
+	background-color: #F5F5F5
+	display: flex
+	justify-content: center
+	align-items: center
+	flex-direction: column
+	overflow: hidden
+
+// LINKS AND HEADER
+a
+	font-family: "Futura"
+	font-size: 15px
+	text-decoration: none
+	transition: opacity .5s ease
+	margin-bottom: 15px
+
+	&:hover
+		opacity: .5
+
+h1
+	margin-bottom: 15px
+
+// WRAPPERS
+.new-content, .home-wrapper
+	display: flex
+	flex-direction: column
+	align-items: center
+
+// TRANSITION ELEMENT
+.transition-element
+	height: 100vh
+	width: 100vw
+	background-color: #454545
+	position: absolute
+	left: -100vw
+	top: 0
+	z-index: 10000
